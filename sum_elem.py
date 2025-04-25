@@ -3,7 +3,7 @@ def sum_list():#First off I've initialized the function sum_list for adding numb
     numbers = input("Enter numbers(space each number):")
     # The user is prompted to input numbers and its stored in the variable called numbers
     numbers = [int(numie) for numie in numbers.split()]
-    #the input from the user is converted from string to integer and split hence why you space the numbers
+    
     #its temporarily stored in the variable called numie
     total = 0 #we're starting our count at 0
     for numie in numbers:
