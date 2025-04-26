@@ -6,6 +6,7 @@ def even_odd_checker():
     else:
         print(f"{numero} is an odd number")
 
+even_odd_checker()    
         #I used an if else using modulo where the input from the user
         #would be divided by 2 and if it's divisible els its odd
         #I used an f-string rather than 'manually adding the values'
